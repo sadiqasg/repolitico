@@ -4,6 +4,7 @@
   "description": "political app",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "npm test"
   },
   "author": "abubakar sadiq",
@@ -14,5 +15,10 @@
     "express": "^4.17.0",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }
